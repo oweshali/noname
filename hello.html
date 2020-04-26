@@ -7,12 +7,22 @@
       h1{color:#befc03;text-align:center;}
       p1{color:red;}
       th{background-color: lightgrey;}
+      ul li{color: blue;}
+      h3::selection{color: red; background-color: yellow;}
       th, td{border: 2px solid black; padding: 5px;}
+      input[type= text]{background: red;}
+      input[type= password]{background: yellow;}
+      input[type= number]{background-color: blue;}
+      #bt1{background-color: green; width: 200px; height: 50px; font-size: 30px;}
+      #bt1:hover{background-color: yellow;}
+      @@media print { .screen-only {display: none;}}
     </style>
   </head>
   <body>
     <h1>BJP MADARCHOD AUR CONGRESS MAHAA MADARCHOD hai fdf gdfd Lamborgni</h1>
     <p1>BJP MADARCHOD AUR KYA BOL SAKTA HU</p1>
+    <p>
+    <p class="screen-only">BJP BJP BJP BJP</p>
     <h3 style="color:blue; text-align:right">BJP MADARCHOD AUR</h3>
     <img src="image.jpg" height="200" width="300">
     <img src="bike.jpeg" height="10%" width="10%">
@@ -50,10 +60,30 @@
   </tr>
 </table>
 
-<form>
+<form><p>
+  <div id="id and password">
   <input type="text" placeholder="full name" name="name">
   <input type="password" placeholder="password" name="password">
-  <button> SUBMIT</button>
+  <input type="number" placeholder="age" name="age">
+  <button id="bt1">SUBMIT</button>
+</div>
+  <div id="color radio"><p>
+    <input type="radio" name="color" value="red">red<p>
+    <input type="radio" name="color" value="green">green<p>
+    <input type="radio" name="color" value="blue">blue<p>
+    <button>SUBMIT</button>
+  </div>
+
+  <div id="country code"><p>
+    <input name="country" list="country name" placeholder="country">
+    <datalist id="country name">
+      <option value="afghanisthan">
+      <option value="india">
+      <option value="america">
+      <option value="germany">
+      </datalist>
+      <button> submit country</button>
+  </div>
 </form>
   </body>
 </html>

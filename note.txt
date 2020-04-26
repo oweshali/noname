@@ -5,11 +5,39 @@ git add * //all
 git commit -m "i Changed what i learn"
 git config --global user.email "your_email@example.com"
 git status 
+-----------------------------------
 git push //upload
 git pull //download
 auto merge concept
+-------------------------------
 git log
+------------------------------
 git reset
 git reset --hard <commit>
 git reset --hard origin/master
+------------------------------------
 xdg-open filename
+--------------------------------------
+git branch
+git branch name
+git checkout name
+git checkout master
+git merge name
+git push --set-upstream origin feature  //to push branch on github
+---------------------------------------------
+----remote---
+git fetch
+git merge origin/master
+git pull
+---------------------------------------
+---fork--------
+pull requests ///from github site
+--------------------------------
+
+responsive design
+view port
+media queries
+flexbox
+grids
+----------------------------------------
+
