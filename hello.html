@@ -15,7 +15,9 @@
       input[type= number]{background-color: blue;}
       #bt1{background-color: green; width: 200px; height: 50px; font-size: 30px;}
       #bt1:hover{background-color: yellow;}
-      @@media print { .screen-only {display: none;}}
+      @media print { .screen-only {display: none;}}
+      @media (max-width: 499px){h1::before{content: "hello world how r u";}}
+      @media (min-width: 500px){h1::before{content: "hello world";}}
     </style>
   </head>
   <body>
